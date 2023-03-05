@@ -13,7 +13,7 @@
         <div id="chat_wrapper">
             <div id="chat"></div>
             <form action="" method="post">
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <textarea name="message" id="textarea" cols="30" rows="7"></textarea>
             </form>
         </div>
     </div>
