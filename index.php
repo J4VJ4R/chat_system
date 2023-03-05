@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat System</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -17,5 +18,19 @@
             </form>
         </div>
     </div>
+
+    <!-- script for jquery -->
+    <script>
+        $('#textarea').keyup(function(e){
+            if(e.which == 13){
+                $('form').submit();
+            }
+
+        });
+        $('form').submit(function(){
+            alert("test yea");
+            return false;
+        });
+    </script>
 </body>
 </html>
