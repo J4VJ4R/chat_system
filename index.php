@@ -28,10 +28,11 @@
 
         });
         $('form').submit(function(){
-            var message = $('#textare').val();
+            var message = $('#textarea').val();
             $.post('handlers/message.php?action=sendMessage&message='+message, function(response){
                 alert(response);
             });
+            return false;
         });
     </script>
 </body>
