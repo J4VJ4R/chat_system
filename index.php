@@ -10,7 +10,7 @@
 <body>
     <div id="wrapper">
         <h1>Welcome to my web site</h1>
-        <div id="chat">
+        <div id="chat_wrapper">
             <form action="" method="post">
                 <textarea name="message" id="" cols="30" rows="10"></textarea>
             </form>
