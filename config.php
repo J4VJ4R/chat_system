@@ -5,4 +5,10 @@ $dbname = "chat";
 $dbuser = "root";
 $dbpass = "123";
 
-$db = new PDO("mysql:host=$dbhost;dbname=$dbname", "$dbuser", "$dbpass");
+try {
+    
+    $db = new PDO("mysql:host=$dbhost;dbname=$dbname", "$dbuser", "$dbpass");
+    echo "Succesfull conection";
+} catch (PDOException $e) {
+    echo $e->getMessage();
+}
