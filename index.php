@@ -8,5 +8,12 @@
 </head>
 <body>
     <h1>Welcome to my web site</h1>
+    <div id="wrapper">
+        <div id="chat">
+            <form action="" method="post">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
