@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to my web site</h1>
     <div id="wrapper">
+        <h1>Welcome to my web site</h1>
         <div id="chat">
             <form action="" method="post">
                 <textarea name="message" id="" cols="30" rows="10"></textarea>
