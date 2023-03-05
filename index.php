@@ -28,8 +28,10 @@
 
         });
         $('form').submit(function(){
-            alert("test yea");
-            return false;
+            var message = $('#textare').val();
+            $.post('handlers/message.php?action=sendMessage&message='+message, function(response){
+                alert(response);
+            });
         });
     </script>
 </body>
